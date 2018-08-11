@@ -34,7 +34,7 @@ function minNum(ahead, behind, startingPoint) {
     };
 
     return days > 100 ? -1 : days;
-}
+};
 
 console.log('Should return 0', minNum(5, 6, 0));
 console.log('Should return -1', minNum("3", 6, 0));
